@@ -6,12 +6,6 @@ To qualify for the FinOps Certified Platform a vendor needs to implement a speci
 
 ## Awareness & Commitment
 
-Testing
-
-- :black_square_button: Mercury
-- :black_square_button: Venus
-- :black_square_button: Neptune
-
 ## Visibility
 
 ## Allocation
