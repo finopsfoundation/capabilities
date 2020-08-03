@@ -42,7 +42,7 @@ This questionnaire assesses the FinOps maturity level of an organization. There 
     3. Everyone can see the cost of all workloads in the cloud (15 points)
     4. The cost of shared services is attributed to the owners through showback or chargeback (25 points)
 
-2. How current is the cloud cost data  (choose one)
+2. How current is the cloud cost data (choose one)
     1. Don’t know (0 points)
     2. We get the cost data before the end-of-month review (5 points)
     3. The cost data is updated at least once every 1 or 2 days (15 points)
@@ -103,7 +103,7 @@ This questionnaire assesses the FinOps maturity level of an organization. There 
     3. Everyone can see orphaned resources in the cloud (15 points)
     4. Orphaned resources are automatically cleaned up where possible and engineers are held accountable to clean up all others (20 points)
 
-3. Do you have data lifecycle management policies in place (choose one)
+3. Do you have data lifecycle management policies (choose one)
     1. Don’t know (0 points)
     2. We do data lifecycle management manually as needed (5 points)
     3. Data is automatically lifecycle managed (15 points)

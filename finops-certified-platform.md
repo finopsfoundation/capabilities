@@ -1,48 +1,79 @@
 # FinOps Certified Platform
 
+[work in progress]
+
 To qualify for the FinOps Certified Platform a vendor needs to implement a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures. 
 
-## Awareness & Commitment
+## Visibility & Allocation
 
-- [ ] Does bill visualization cater to different levels in the organization e.g. executive versus leadership versus engineer
-- [ ] Does the vendor support FinOps program tracking through e.g. program specific KPIs
-- [ ] Does the platform align cloud decision makers with FinOps goals
-- [ ] Does the platform track workload optimizations in the cloud
+- [ ] Cloud cost visualization supports aggregation and filtering e.g. product, account, time, tag
+- [ ] Allow mapping of cloud resources (a.g. accounts, projects) to your organization's structure
+- [ ] Align cloud decision makers with FinOps goals
+- [ ] Cost visualization caters to different levels in the organization e.g. executive versus leadership versus engineer
+- [ ] Cost data is up-to-date, meaning less than 2 days old
+- [ ] Support amortization of prepayment products (Committed Use Discounts, Reservations, Savings Plans)
+- [ ] Dynamically calculate custom rates and amortization metrics
+- [ ] Create showback and chargeback reporting
+- [ ] Support fully loaded costs incl. enterprise discounts, private pricing agreements, support fees, costs for site licenses etc.
+- [ ] Define tagging strategy and support management of tagging rules
+- [ ] Manage tagging compliance e.g. enforcement, alerting, and auto correction
+- [ ] Define budgets and report actual versus budget
+- [ ] Define forecasts and report forecast versus actual variance
+- [ ] Alert and visualize budget overages
+- [ ] Alert and visualize cost spikes that may not be large enough to impact budgets
+- [ ] Support FinOps program tracking through e.g. program specific KPIs
+- [ ] Able to provide visibility into how your organization performs across the industry
 
-## Visibility
+## Rate Reduction
 
-- [ ] Does the platform provide bill visualization of cloud cost
-- [ ] Does the platform provide up-to-date cost data
-- [ ] Does the platform track budget overages
-- [ ] Does the platform inform users about cost spikes that may not be large enough to impact budgets
+- [ ] Visualize effect of enterprise discounts, private pricing agreements
+- [ ] Visualize effect of custom discounts, volume discounts
+- [ ] Visualize, report, and track the effect of sustained usage discounts
+- [ ] Track commitment for enterprise discounts, private pricing agreements over time and show remaining commitment for each agreement
+- [ ] Recommend optimizations to existing licensing portfolio
+- [ ] Visualize coverage and utilization of prepayment products (Committed Use Discounts, Reservations, Savings Plans) and show trending over time
+- [ ] Analyze effectiveness of existing prepayment portfolio and provide improvement recommendations
+- [ ] Recommendations allow balancing of various rate types
+- [ ] Select discounts that match your flexibility
+- [ ] Utilize the marketplace when making recommendations
+- [ ] Provide purchase recommendations for prepayment products (Committed Use Discounts, Reservations, Savings Plans)
+- [ ] Recommendations are aware of seasonality
+- [ ] Recommendations are aware of auto scaling workloads
+- [ ] Visualize, recommend, manage, and track capacity reservations
 
-## Allocation
+## Cost Avoidance
 
-- [ ] Does the platform provide visibility into fully loaded costs
-- [ ] Does the platform enable real-time decisions around cloud cost
-- [ ] Does the platform actively benchmark the performance of cloud workloads
-- [ ] Does the platform provide visibility into how your organization performs across the industry
+- [ ] Visualize, recommend, and track right-sizing opportunities within a compute family
+- [ ] Visualize, recommend, and track right-sizing opportunities across compute families
+- [ ] Allow user prompted remediation of right-sizing opportunities
+- [ ] Submit pull requests for right-sizing recommendations
+- [ ] Leverag Continuous Integration/Continuous Delivery (CI/CD) automation for cost avoidance
+- [ ] Able to benchmark the performance of cloud workloads
+- [ ] Visualize, recommend, manage, and track cloud parking opportunities
+- [ ] Visualize, recommend, and track unrealized savings opportunities (underused, unused, orphaned resources)
+- [ ] Allow user prompted remediation of unrealized savings opportunities (underused, unused, orphaned resources)
+- [ ] Auto remediate unrealized savings opportunities (stopping of unused resources, deletion of orphaned resources, data lifecycle management)
+- [ ] Visualize and track realized cost avoidance opportunities
+- [ ] Provide visibility into container utilization e.g. node utilization, pod utilization
+- [ ] Report, track, manage, and enforce red / green zone policies
+- [ ] Alert, report, track, manage, and enforce policies and governance in the cloud
 
-## Utilization
+## Benchmark Performance
+[TBD]
+Trending & Variance Analysis
+Create Scorecards, metrics & KPIs
+Benchmark internally and against “industry” peers
 
-- [ ] Does the platform provide visibility into how much of requested cloud resource is used
-- [ ] Is the platform tracking orphaned resources (unattached volumes, persistent disks)
-- [ ] Does the platform support data lifecycle management policies
-- [ ] Does the platform provide visibility into container utilization
-- [ ] Does the platform provide visibility into how prepayment products (Committed Use Discounts, Reservations, Savings Plans) are being used
+## Enable Real-Time Decision Making
+[TBD]
+Provide timely and consistent spend / usage data to all stakeholders
+Identify Anomalies
+Find & Remove underutilized services
 
-## Rate Opportunities
-
-- [ ] Does the platform support policies and governance in the cloud
-- [ ] Does the platform track enterprise agreements
-- [ ] Does the platform track private pricing agreements
-- [ ] Does the platform track how prepayment products (Committed Use Discounts, Reservations, Savings Plans) perform against red / green zones
-- [ ] Does the platform help to manage prepayment products (Committed Use Discounts, Reservations, Savings Plans)
-
-## Continuous Improvement & Operations
-
-- [ ] Is the platform supporting policy enforcement in the cloud
-- [ ] Does the platform optimize elasticity (autoscaling, cloud parking) in the cloud
-- [ ] Does the platform optimize cost avoidance (right-sizing, budgets) in the cloud
-- [ ] Does the platform leverag Continuous Integration/Continuous Delivery (CI/CD) automation
-- [ ] Does the platform optimize around red / green zones in the cloud
+## Align Plans to the Business
+[TBD]
+Mini-Business Cases
+Tracking and Trending
+Communication strategy
+Ongoing reviews with stakeholders on optimization opportunities
+Develop a framework for decision making that aligns with the business drivers
