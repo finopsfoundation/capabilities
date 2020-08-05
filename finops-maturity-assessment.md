@@ -8,7 +8,7 @@ Maturity Areas
 * [Allocation](#allocation)
 * [Utilization](#utilization)
 * [Rate Opportunities](#rate-opportunities)
-* [Continuous Improvement & Operations](#continuous-improvement---operations)
+* [Continuous Improvement & Operations](#continuous-improvement-\&-operations)
 
 ## Awareness & Commitment
 
