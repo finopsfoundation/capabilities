@@ -2,6 +2,14 @@
 
 This questionnaire assesses the FinOps maturity level of an organization. There are six areas, each is limited to 100 points, and a question is limited to 25 points. Divide the total points achieved by 100 to get the final score. A score around 5 is considered an above average maturity level.
 
+Maturity Areas
+* [Awareness & Commitment](#awareness---commitment)
+* [Visibility](#visibility)
+* [Allocation](#allocation)
+* [Utilization](#utilization)
+* [Rate Opportunities](#rate-opportunities)
+* [Continuous Improvement & Operations](#continuous-improvement---operations)
+
 ## Awareness & Commitment
 
 1. What is the makeup of your FinOps team (choose one)
