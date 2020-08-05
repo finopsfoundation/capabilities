@@ -4,7 +4,15 @@
 
 To qualify for the FinOps Certified Platform a vendor needs to implement a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures. 
 
-## Visibility & Allocation
+Capability Areas
+- [Visibility And Allocation](#visibility-and-allocation)
+- [Rate Reduction](#rate-reduction)
+- [Cost Avoidance](#cost-avoidance)
+- [Benchmark Performance](#benchmark-performance)
+- [Enable Real-Time Decision Making](#enable-real-time-decision-making)
+- [Align Plans to the Business](#align-plans-to-the-business)
+
+## Visibility And Allocation
 
 - [ ] Cloud cost visualization supports aggregation and filtering e.g. product, account, time, tag
 - [ ] Allow mapping of cloud resources (a.g. accounts, projects) to your organization's structure
