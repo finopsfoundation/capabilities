@@ -67,21 +67,18 @@ Capability Areas
 - [ ] Alert, report, track, manage, and enforce policies and governance in the cloud
 
 ## Benchmark Performance
-[TBD]
-Trending & Variance Analysis
-Create Scorecards, metrics & KPIs
-Benchmark internally and against “industry” peers
+- [ ] Trending & Variance Analysis
+- [ ] Create Scorecards, metrics & KPIs
+- [ ] Benchmark internally and against “industry” peers
 
 ## Enable Real-Time Decision Making
-[TBD]
-Provide timely and consistent spend / usage data to all stakeholders
-Identify Anomalies
-Find & Remove underutilized services
+- [ ] Provide timely and consistent spend / usage data to all stakeholders
+- [ ] Identify Anomalies
+- [ ] Find & Remove underutilized services
 
 ## Align Plans to the Business
-[TBD]
-Mini-Business Cases
-Tracking and Trending
-Communication strategy
-Ongoing reviews with stakeholders on optimization opportunities
-Develop a framework for decision making that aligns with the business drivers
+- [ ] Mini-Business Cases
+- [ ] Tracking and Trending
+- [ ] Communication strategy
+- [ ] Ongoing reviews with stakeholders on optimization opportunities
+- [ ] Develop a framework for decision making that aligns with the business drivers
