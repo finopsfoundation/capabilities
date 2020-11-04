@@ -2,7 +2,7 @@
 
 [work in progress]
 
-- A unified framework for what is req
+- A unified framework for what is required to build a practice
 - Capabilities required for the entire practice
 - Split up by Persona, driven by SIGs (finance, eng, etc)
 - Each with KPIs attached
@@ -39,12 +39,9 @@ FinOps Foundation is an aggregator and enabler of discussion and evolution of th
 
 ## FCP, FCSP, FTP support enabling the framework
 
-Vendor members work to be the best at providing solutions to the capabilties in the framework.
+Vendor members work to be the best at providing solutions to the capabilties in the framework. E.g. Platforms, Service Providers, Training Partners. To qualify for the FinOps Certified program a vendor needs to provide solutions for a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures (requirements to be defined by the TAC).
 
-
-To qualify for the FinOps Certified Platform a vendor needs to implement a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures. 
-
-Capability Areas
+# Evolving Capability Areas
 - [Visibility And Allocation](#visibility-and-allocation)
 - [Rate Reduction](#rate-reduction)
 - [Cost Avoidance](#cost-avoidance)
