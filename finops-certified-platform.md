@@ -1,6 +1,46 @@
-# FinOps Certified Platform
+# FinOps Framework
 
 [work in progress]
+
+- A unified framework for what is req
+- Capabilities required for the entire practice
+- Split up by Persona, driven by SIGs (finance, eng, etc)
+- Each with KPIs attached
+- RACI of who responsibility
+- Outcome is learning objectives for exam
+- Learning objectives feed training curriculums
+- Training curriculums feed materials
+- Tooling supports accomplishment of capabilities
+- Some capabilities are internal muscle, some are software, some are services
+- Survey/data (SIG?) supports benchmarking data on all these
+- Benchmark data quantitately shows what great looks like in each area
+
+
+## TAC drives continuous improvement and alignment of framework
+
+- SIGs own portions of the framework
+- SIGs recommend quarterly (TBD) updates to the framework to the TAC
+- TAC votes quaterly (TBD) to update framework
+
+## Community support enables contribution and learning
+
+FinOps Foundation is an aggregator and enabler of discussion and evolution of the practice.
+
+- Slack
+- Centralized view into regional, topical and persona based events (meetups, vendor discussions, FinOps member meetings)
+- Live discussion forums for sharing of best practices
+- 
+
+## FinOps Certifications verify an understanding of the framework
+- Persona based certifications hosted by the Linux Foundation 
+- SIGs define what each persona needs to know
+- That knowledge is translated into exam questions
+- LF/FinOps work with training partners to develop content to teach the framework
+
+## FCP, FCSP, FTP support enabling the framework
+
+Vendor members work to be the best at providing solutions to the capabilties in the framework.
+
 
 To qualify for the FinOps Certified Platform a vendor needs to implement a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures. 
 
