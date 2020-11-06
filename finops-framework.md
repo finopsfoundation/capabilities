@@ -210,3 +210,6 @@ tbd to breakout or categorize in to other areas
 
 ## Automation Capabilities
 tbd to breakout or roll in to other areas
+
+## Software License Management Capabilities
+tbd name (SAM, SaaS, etc)
