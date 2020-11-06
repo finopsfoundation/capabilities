@@ -1,9 +1,9 @@
 [work in progress]
 
 # FinOps Framework
-## A unified framework for what is required to build an effective practice in an Enterprise
+## A unified framework for building an effective practice in an Enterprise
 
-Basic structure:
+The framework provides a roadmap to implement FinOps:
 
 - Defines the Capabilities required for the entire practice
 - Segments them by Persona and Function driven by SIG inputs (finance, eng, kubernetes, etc)
