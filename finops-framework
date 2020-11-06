@@ -1,45 +1,64 @@
-# FinOps Framework
-
 [work in progress]
 
-- A unified framework for what is required to build a practice
-- Capabilities required for the entire practice
-- Split up by Persona, driven by SIGs (finance, eng, etc)
-- Each with KPIs attached
-- RACI of who responsibility
-- Outcome is learning objectives for exam
-- Learning objectives feed training curriculums
-- Training curriculums feed materials
-- Tooling supports accomplishment of capabilities
-- Some capabilities are internal muscle, some are software, some are services
-- Survey/data (SIG?) supports benchmarking data on all these
-- Benchmark data quantitately shows what great looks like in each area
+# FinOps Framework
+## A unified framework for what is required to build an effective practice in an Enterprise
 
+Basic structure:
 
-## TAC drives continuous improvement and alignment of framework
+- Defines the Capabilities required for the entire practice
+- Segments them by Persona and Function driven by SIG inputs (finance, eng, kubernetes, etc)
+- KPIs are attached to measure effectiveness in each area and—where relevant—each capabilit
+- Responsibilities are rolled up to a RACI of ownership
 
-- SIGs own portions of the framework
-- SIGs recommend quarterly (TBD) updates to the framework to the TAC
-- TAC votes quaterly (TBD) to update framework
+## TAC's primary output becomes the Framework
+
+- Each portion of the framework is owned by a SIG (finance, eng, kubernetes, etc)
+- SIG inputs drive continuous improvement of framework
+- SIGs recommend quarterly (TBD) updates to the framework to the TAC via Github pull request
+
+- TAC votes quaterly (TBD) to approve framework updates and merges them to master Framework branch
+
+## Framework drives education and certification requirements
+
+- Learning objectives for certifications are attached to each area/capability set
+- Training curriculums are driven by those learning objectives
+- Training materials are built by FinOps or others to support the learning objectives
+
+## Benchmarking of capabilities and KPIs
+
+- Survey/data (SIG?) supports benchmarking capabilities on an effective practice
+- Anonymized, crowdsourced KPI data allows enterprises to measure against "what great looks like"
+
+## FinOps Framework output
+
+- Framework master updates are ouputted into a rich HTML documentation experience like https://www.gatsbyjs.com/tutorial/
+- Outputs would fall into a taxonomy that enables filtering the experience for persona (e.g., Finance vs. Eng) and Clouds (e.g. AWS vs GCP) like https://www.balena.io/docs/learn/getting-started/raspberrypi3/nodejs/
 
 ## Community support enables contribution and learning
 
 FinOps Foundation is an aggregator and enabler of discussion and evolution of the practice.
 
-- Slack
+- Slack channels tie to Framework areas and drive inputs to SIG updates
 - Centralized view into regional, topical and persona based events (meetups, vendor discussions, FinOps member meetings)
-- Live discussion forums for sharing of best practices
+- IdeaExchanges drive live discussion forums for sharing of best practices via Zoom breakout rooms
 - Community discussions drive improved framework, each event's takeaways captured and integrated
 
 ## FinOps Certifications verify an understanding of the framework
+
 - Persona based certifications hosted by the Linux Foundation 
 - SIGs define what each persona needs to know
 - That knowledge is translated into exam questions
 - LF/FinOps work with training partners to develop content to teach the framework
 
-## FCP, FCSP, FTP support enabling the framework
+## FCP, FCSP, FTP partners enable implementation of the Framework
 
-Vendor members work to be the best at providing solutions to the capabilties in the framework. E.g. Platforms, Service Providers, Training Partners. To qualify for the FinOps Certified program a vendor needs to provide solutions for a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures (requirements to be defined by the TAC).
+- Tooling supports accomplishment of capabilities: whether SaaS or Open Source
+- Some capabilities are internal muscle, some are software, some are services
+- Vendors and consultancies are mapped against the capabilties of the Framework 
+- Practitioners can use that mapping to find help for areas where they are weak
+
+To qualify for the FinOps Certified program a vendor needs to provide solutions for a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures (requirements to be defined by the TAC). Vendor members work to be the best at providing solutions to the capabilties in the framework. E.g. Platforms, Service Providers, Training Partners. 
+
 
 # Evolving Capability Areas
 - [Visibility And Allocation](#visibility-and-allocation)
