@@ -1,3 +1,13 @@
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 [work in progress]
 
 # FinOps Framework
@@ -15,14 +25,20 @@ The framework provides a roadmap to implement FinOps:
 - Each portion of the framework is owned by a SIG (finance, eng, kubernetes, etc)
 - SIG inputs drive continuous improvement of framework
 - SIGs recommend quarterly (TBD) updates to the framework to the TAC via Github pull request
-
 - TAC votes quaterly (TBD) to approve framework updates and merges them to master Framework branch
 
-## Framework drives education and certification requirements
+## Framework drives Certification requirements
 
 - Learning objectives for certifications are attached to each area/capability set
 - Training curriculums are driven by those learning objectives
 - Training materials are built by FinOps or others to support the learning objectives
+
+## FinOps Certifications verify an understanding of the framework
+
+- Persona based certifications hosted by the Linux Foundation 
+- SIGs define what each persona needs to know
+- That knowledge is translated into exam questions
+- LF/FinOps work with training partners to develop content to teach the framework
 
 ## Benchmarking of capabilities and KPIs
 
@@ -43,13 +59,6 @@ FinOps Foundation is an aggregator and enabler of discussion and evolution of th
 - IdeaExchanges drive live discussion forums for sharing of best practices via Zoom breakout rooms
 - Community discussions drive improved framework, each event's takeaways captured and integrated
 
-## FinOps Certifications verify an understanding of the framework
-
-- Persona based certifications hosted by the Linux Foundation 
-- SIGs define what each persona needs to know
-- That knowledge is translated into exam questions
-- LF/FinOps work with training partners to develop content to teach the framework
-
 ## FCP, FCSP, FTP partners enable implementation of the Framework
 
 - Tooling supports accomplishment of capabilities: whether SaaS or Open Source
@@ -59,8 +68,10 @@ FinOps Foundation is an aggregator and enabler of discussion and evolution of th
 
 To qualify for the FinOps Certified program a vendor needs to provide solutions for a specific number of capabilities. Each checked line item adds to the total score. The exact amount of capabilities a vendor needs to support to certify will change / increase over time as the industry matures (requirements to be defined by the TAC). Vendor members work to be the best at providing solutions to the capabilties in the framework. E.g. Platforms, Service Providers, Training Partners. 
 
+# FinOps Framework v0.1
 
-# Evolving Capability Areas
+## Pillars
+
 - [Visibility And Allocation](#visibility-and-allocation)
 - [Rate Reduction](#rate-reduction)
 - [Cost Avoidance](#cost-avoidance)
@@ -70,13 +81,16 @@ To qualify for the FinOps Certified program a vendor needs to provide solutions 
 
 ## Visibility And Allocation
 
+- [ ] Multi-cloud ingestion and normalization of spend data across a minimum of AWS, Azure, and GCP
 - [ ] Cloud cost visualization supports aggregation and filtering e.g. product, account, time, tag
 - [ ] Allow mapping of cloud resources (a.g. accounts, projects) to your organization's structure
 - [ ] Align cloud decision makers with FinOps goals
+- [ ] Customizable dashboards to visualize amortized costs and forecasted spend
 - [ ] Cost visualization caters to different levels in the organization e.g. executive versus leadership versus engineer
 - [ ] Cost data is up-to-date, meaning less than 2 days old
 - [ ] Support amortization of prepayment products (Committed Use Discounts, Reservations, Savings Plans)
-- [ ] Dynamically calculate custom rates and amortization metrics
+- [ ] Accurate and dynamic calculation of custom rates, shared costs and amortization metrics
+- [.] Shared cost allocation based on fixed, proportional or even distributions
 - [ ] Create showback and chargeback reporting
 - [ ] Support fully loaded costs incl. enterprise discounts, private pricing agreements, support fees, costs for site licenses etc.
 - [ ] Define tagging strategy and support management of tagging rules
@@ -87,6 +101,20 @@ To qualify for the FinOps Certified program a vendor needs to provide solutions 
 - [ ] Alert and visualize cost spikes that may not be large enough to impact budgets
 - [ ] Support FinOps program tracking through e.g. program specific KPIs
 - [ ] Able to provide visibility into how your organization performs across the industry
+
+### KPIs:
+
+- % of spend that can be fully allocated
+- % of forecast to actual variance over specific periods
+- * % untagged resources
+- % wrongly tagged resources
+- % total tag coverage
+- % taggable items tagged
+- % of spend that is untaggable 
+- Hours between cost incurred and cost displayed to end team
+- Frequency of cost data updates
+- Avg price per hour of compute
+- Unit cost (spend divided by a business metric)
 
 ## Rate Reduction
 
@@ -105,6 +133,13 @@ To qualify for the FinOps Certified program a vendor needs to provide solutions 
 - [ ] Recommendations are aware of auto scaling workloads
 - [ ] Visualize, recommend, manage, and track capacity reservations
 
+### KPIs
+
+- RI Coverage
+- Savings Plan Coverage
+- Committed Use Discount coverage
+- Custom pricing commitment tracking
+
 ## Cost Avoidance
 
 - [ ] Visualize, recommend, and track right-sizing opportunities within a compute family
@@ -122,6 +157,17 @@ To qualify for the FinOps Certified program a vendor needs to provide solutions 
 - [ ] Report, track, manage, and enforce red / green zone policies
 - [ ] Alert, report, track, manage, and enforce policies and governance in the cloud
 
+### KPIs
+
+- Rightsizing opportunity value
+- Usage on weekends vs weekdays
+- % of spot vs other coverage
+- % orphaned EBS volumes
+- % orphaned snapshots
+- Aged snapshots
+- Idle instances > 30-days
+- Idle instances < 30-days
+
 ## Benchmark Performance
 - [ ] Trending & Variance Analysis
 - [ ] Create Scorecards, metrics & KPIs
@@ -129,7 +175,7 @@ To qualify for the FinOps Certified program a vendor needs to provide solutions 
 
 ## Enable Real-Time Decision Making
 - [ ] Provide timely and consistent spend / usage data to all stakeholders
-- [ ] Identify Anomalies
+- [ ] Identify Anomalies based on machine learning 
 - [ ] Find & Remove underutilized services
 
 ## Align Plans to the Business
@@ -138,3 +184,29 @@ To qualify for the FinOps Certified program a vendor needs to provide solutions 
 - [ ] Communication strategy
 - [ ] Ongoing reviews with stakeholders on optimization opportunities
 - [ ] Develop a framework for decision making that aligns with the business drivers
+
+## Access and Permissions
+
+- [ ] Integration with SSO
+- [ ] Ability to focus or restrict visibility and features based on role
+- [ ] Ability to limit scope of access by tags, departments, users, or business logic constructs
+
+## Collaboration and Communication Capabilities
+- Foster communication and collaboration among operations, development, and finance teams
+- Deliver data and insights to team workflows such as ticketing systems like JIRA or ServiceNow
+- Provide acknowledgement and status of recommendations bi-directionally between systems
+
+## Container Capabilities
+- [ ] ETL of container usage married to infrastructure cost data
+- [ ] Allocation of container spending based on defined taxonomy of tags, labels, namespaces, etc
+- [ ] Optimization of container usage
+- [ ] Integration of container cost data with traditional IaaS spending for complete costs
+
+## Finance Capabilities
+tbd to breakout or categorize in to other areas
+
+## Engineering Capabilities
+tbd to breakout or categorize in to other areas
+
+## Automation Capabilities
+tbd to breakout or roll in to other areas
