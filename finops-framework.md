@@ -203,10 +203,29 @@ To qualify for the FinOps Certified program a vendor needs to provide solutions 
 - [ ] Integration of container cost data with traditional IaaS spending for complete costs
 
 ## Finance Capabilities
-tbd to breakout or categorize in to other areas
+_tbd to breakout or roll in to other areas_
+- Understand Capex/Opex considerations in move to the cloud: many commiments are pre-payments of OPEX, etc
+- Understand and be able to account for cloud pricing model: consumption based, examples of how dynamic (look to architecture examples like storage snapshots), not flat, What/when I get billed: monthly, quarterly, annually?
+- Understand cloud Marketplaces and how they transact bypassing procurement
+- Allocation charges of subscription charges from Marketplace, opex and lumped
+- Dealing with shared costs of all kind and distributing them
+- Understand how cloud cost is different from capital maintenance
+- Understand and calculate commitments to cloud providers (RI, SP, CUDs)
+- Understand the notion of ephemeral hardware: You don’t buy these for servers!
+- Manage and leverage licenses you have on-prem (AHUB etc)
+- Understand tagging/hierarchy management 
+
 
 ## Engineering Capabilities
-tbd to breakout or categorize in to other areas
+_tbd to breakout or roll in to other areas_
+- Your job is now to track costs and do budgeting now
+- Importance of tagging/allocation to the business and finance
+- Strategies for cost optimization, Rightsizing etc.
+- Best practices for architecture
+- Workload management: Frequency of database hydration / storage snapshots / frequency of refreshes / etc, develop a repo of stories
+- Do’s and don’ts concerning costs
+- What’s your responsibility and what is not
+
 
 ## Automation Capabilities
 tbd to breakout or roll in to other areas
