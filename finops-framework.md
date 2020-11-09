@@ -42,10 +42,14 @@ The framework provides a roadmap to implement FinOps:
 
 ## Benchmarking of capabilities and KPIs
 
+A key question when implementing the Framework is: "what does good look like"? By aggregating and sharing KPI data, the Foundation provides solutions to answer this question.
+
 - Survey/data (SIG?) supports benchmarking capabilities on an effective practice
 - Anonymized, crowdsourced KPI data allows enterprises to measure against "what great looks like"
 
 ## FinOps Framework output
+
+We aim to make the learnings we collect as available as possible through open and easy-to-consume digital formats.
 
 - Framework master updates are ouputted into a rich HTML documentation experience like https://www.gatsbyjs.com/tutorial/
 - Outputs would fall into a taxonomy that enables filtering the experience for persona (e.g., Finance vs. Eng) and Clouds (e.g. AWS vs GCP) like https://www.balena.io/docs/learn/getting-started/raspberrypi3/nodejs/
@@ -60,6 +64,8 @@ FinOps Foundation is an aggregator and enabler of discussion and evolution of th
 - Community discussions drive improved framework, each event's takeaways captured and integrated
 
 ## FCP, FCSP, FTP partners enable implementation of the Framework
+
+Vendor members offer tooling to help enterprisely effectively implement the capabilities and contribute their thought leadership expertise to evolving the framework.
 
 - Tooling supports accomplishment of capabilities: whether SaaS or Open Source
 - Some capabilities are internal muscle, some are software, some are services
