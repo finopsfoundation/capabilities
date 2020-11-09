@@ -238,3 +238,8 @@ tbd to breakout or roll in to other areas
 
 ## Software License Management Capabilities
 tbd name (SAM, SaaS, etc)
+
+## Notes
+- Too much focus on platforms?
+- Building the team internally?
+-- - Job descriptions
