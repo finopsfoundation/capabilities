@@ -52,7 +52,8 @@ A key question when implementing the Framework is: "what does good look like"? B
 We aim to make the learnings we collect as available as possible through open and easy-to-consume digital formats.
 
 - Framework master updates are ouputted into a rich HTML documentation experience like https://www.gatsbyjs.com/tutorial/
-- Outputs would fall into a taxonomy that enables filtering the experience for persona (e.g., Finance vs. Eng) and Clouds (e.g. AWS vs GCP) like https://www.balena.io/docs/learn/getting-started/raspberrypi3/nodejs/
+- Outputs would fall into a taxonomy that enables filtering the experience for persona (e.g., Finance vs. Eng) and Clouds (e.g. AWS vs GCP) like https://www.balena.io/docs/learn/getting-started/raspberrypi3/nodejs/]
+- These outputs will include links to relevant F2 resources in each section: trainings
 
 ## Community support enables contribution and learning
 
@@ -243,3 +244,27 @@ tbd name (SAM, SaaS, etc)
 - Too much focus on platforms?
 - Building the team internally?
 -- - Job descriptions
+-- Heirarchy of FinOps Foundation meetings needs to be clarified: GB, SIG, TAC, Member meetings, Vendor webinars, etc.
+-- Have a flow for each persona to follow: start here, read this, join this, etc.
+-- Survey: how do we use it to validate the framework?
+
+## Draft timeline:
+- Nov 17 - state of finops surveys start going out (with coupon for the self-paced course and free t-shirt coupon, first 250 respondeds get free t-shirt)
+- Nov 17 - whitepaper and self-paced course launch
+- Nov 17 - Framework presented to TAC and outcomes agreed (ahead of time, need to share Framework doc and live vote on XYZ, etc)
+- Nov 19 - Kubernetes panel
+-- Two SIG meetings each before Dec 10 
+-- Start with Finance and Engineering (SIG in a box: capabilities, kpis, learning outcomes, etc.)
+-- First version of the framework capabilties to launch Dec 15, 2020
+- Dec 17 - Soft launch on Eng + Finance training curriculum
+
+-- January 20 Member Meeting opens with a State of FinOps survey results
+  -- Share versions out to the groups for discussion end of Dec and prompted Slack discussions
+  -- Break into groups to discuss the framework capabilties
+  -- Come back together at end to share summary
+-- Setup a cadence of briefing analysts like Forrester, Gartner, etc. to share/align -
+-- First iteration partnered with analyst collaboration at end of Q1 -
+
+TBD:
+FinOps for Enterprises date ?? Jan
+Associate level course curriculum - Feb to 
