@@ -248,7 +248,7 @@ tbd name (SAM, SaaS, etc)
 -- Have a flow for each persona to follow: start here, read this, join this, etc.
 -- Survey: how do we use it to validate the framework?
 
-## Draft timeline:
+## Draft timeline of relevant milestones:
 - Nov 17 - state of finops surveys start going out (with coupon for the self-paced course and free t-shirt coupon, first 250 respondeds get free t-shirt)
 - Nov 17 - whitepaper and self-paced course launch
 - Nov 17 - Framework presented to TAC and outcomes agreed (ahead of time, need to share Framework doc and live vote on XYZ, etc)
@@ -264,6 +264,18 @@ tbd name (SAM, SaaS, etc)
   -- Come back together at end to share summary
 -- Setup a cadence of briefing analysts like Forrester, Gartner, etc. to share/align -
 -- First iteration partnered with analyst collaboration at end of Q1 -
+
+## O'Reilly Channel
+-- Ability to bundle book copies with training/cert courses
+-- Ideal: physical copy drop shipped through Amazon to primary regions (NA, UK/EU, APAC) - outcome: reviews and Amazon ranking
+-- Secondary: digital copy for international and optional for US - outcome: speed and shipping cost savings
+-- Digital study guide through O'Reilly
+-- New: FinOps for Kubernetes report (proposal by Andrew)
+-- New: FinOps Framework Book (proposal by JR)
+-- New: FinOps for Engineers report (proposal by the SIG)
+-- New: Cloud for Finance report (proposal by SIG)
+-- New: Interview series (model on Tools of Titans)
+-- Update: Cloud FinOps 2nd Edition - involve 1-2 additional co-authors to update and ensure enterprise (e.g. Fidelity, GE, JPMC, etc) + cloud (AWS, GCP, etc) aligment, release tied to major cloud event (Re:invent, NEXT, etc)
 
 TBD:
 FinOps for Enterprises date ?? Jan
