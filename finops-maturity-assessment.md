@@ -1,3 +1,15 @@
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+[work in progress]
+
 # FinOps Maturity Assessment
 
 This questionnaire assesses the FinOps maturity level of an organization. There are six areas, each is limited to 100 points, and a question is limited to 25 points. Divide the total points achieved by 100 to get the final score. A score around 5 is considered an above average maturity level.
