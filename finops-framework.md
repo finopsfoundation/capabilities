@@ -266,16 +266,17 @@ tbd name (SAM, SaaS, etc)
 -- First iteration partnered with analyst collaboration at end of Q1 -
 
 ## O'Reilly Channel
--- Ability to bundle book copies with training/cert courses
+- Ability to bundle book copies with training/cert courses
 -- Ideal: physical copy drop shipped through Amazon to primary regions (NA, UK/EU, APAC) - outcome: reviews and Amazon ranking
 -- Secondary: digital copy for international and optional for US - outcome: speed and shipping cost savings
 -- Digital study guide through O'Reilly
--- New: FinOps for Kubernetes report (proposal by Andrew)
--- New: FinOps Framework Book (proposal by JR)
--- New: FinOps for Engineers report (proposal by the SIG)
--- New: Cloud for Finance report (proposal by SIG)
--- New: Interview series (model on Tools of Titans)
--- Update: Cloud FinOps 2nd Edition - involve 1-2 additional co-authors to update and ensure enterprise (e.g. Fidelity, GE, JPMC, etc) + cloud (AWS, GCP, etc) aligment, release tied to major cloud event (Re:invent, NEXT, etc)
+- New: FinOps for Kubernetes report (proposal by Andrew)
+- New: FinOps Framework Book (proposal by JR)
+- New: FinOps for Engineers report (proposal by the SIG)
+- New: Cloud for Finance report (proposal by SIG)
+- New: Interview series (model on Tools of Titans)
+- Update: Cloud FinOps 2nd Edition - involve 1-2 additional co-authors to update and ensure enterprise (e.g. Fidelity, GE, JPMC, etc) + cloud (AWS, GCP, etc) aligment, release tied to major cloud event (Re:invent, NEXT, etc)
+- Validate: what level of sales/revenue makes FinOps key focus area
 
 TBD:
 FinOps for Enterprises date ?? Jan
