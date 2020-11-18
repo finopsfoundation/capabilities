@@ -241,12 +241,17 @@ tbd to breakout or roll in to other areas
 tbd name (SAM, SaaS, etc)
 
 ## Notes
+- Open with definition of personas and responsibilities
+- How to weave in examples of what great looks like in a Practice (e.g. Fidelity or Pearson's built out practice frameworks)
+- How Architecture service choices affect FinOps responsibility: running your own DB on EC2 vs using RDS; what changes in terms of accountability for financial impacts between personas?
 - Too much focus on platforms?
 - Building the team internally?
 -- - Job descriptions
 -- Heirarchy of FinOps Foundation meetings needs to be clarified: GB, SIG, TAC, Member meetings, Vendor webinars, etc.
 -- Have a flow for each persona to follow: start here, read this, join this, etc.
 -- Survey: how do we use it to validate the framework?
+-- Metrics: prod vs non-prod spending
+-- FinOps Framework score for an enterprise
 
 ## Draft timeline of relevant milestones:
 - Nov 17 - state of finops surveys start going out (with coupon for the self-paced course and free t-shirt coupon, first 250 respondeds get free t-shirt)
