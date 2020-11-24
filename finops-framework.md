@@ -40,6 +40,13 @@ The framework provides a roadmap to implement FinOps:
 - That knowledge is translated into exam questions
 - LF/FinOps work with training partners to develop content to teach the framework
 
+
+## FinOps Certified for Enterprises
+
+
+- Self-audit of capabilities for the enterprise to measure their framework adherence
+- Some number of certified individuals required
+
 ## Benchmarking of capabilities and KPIs
 
 A key question when implementing the Framework is: "what does good look like"? By aggregating and sharing KPI data, the Foundation provides solutions to answer this question.
